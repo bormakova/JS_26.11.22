@@ -26,7 +26,11 @@ let fruits = [
     },
 ];
 
-//найти элемент в массиве
-const orange = fruits.findIndex((item) => item.name === 'Апельсин');
-fruits[orangeIndex]
-console.log(orangeIndex);
+//Создать новый массив где кол-во к-ых <10
+
+const fruitsForOrder = fruits.filter((fruit) => {
+    if (fruit.count < 10) {
+        return true;
+    }
+    
+});
