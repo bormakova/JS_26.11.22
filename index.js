@@ -28,9 +28,6 @@ let fruits = [
 
 //Создать новый массив где кол-во к-ых <10
 
-const fruitsForOrder = fruits.filter((fruit) => {
-    if (fruit.count < 10) {
-        return true;
-    }
-    
-});
+const fruitsForOrder = fruits.filter((fruit) => fruit.count < 10);
+console.log(fruits);
+console.log(fruitsForOrder);
