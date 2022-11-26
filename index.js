@@ -28,4 +28,5 @@ let fruits = [
 
 //найти элемент в массиве
 const orange = fruits.findIndex((item) => item.name === 'Апельсин');
+fruits[orangeIndex]
 console.log(orangeIndex);
