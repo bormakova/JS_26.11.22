@@ -15,5 +15,5 @@ let fruits = ['Киви', 'Мандарин',
 'Яблоко', 'Апельсин',
 'Груша', 'Мандарин'];
 
-const a = fruits.indexOf('Яблоко');
+const a = fruits.includes('Яблоко');
 console.log(a);
