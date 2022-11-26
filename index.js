@@ -45,3 +45,26 @@ function func3(item) {
 
 fruits.forEach(func1); 
 console.log(fruits);
+
+const array = [1,2,3,4,5];
+const sum = array.reduce((acc, current) => acc + current, )
+
+const array = [1,2,-3,-4, 5, 8, 4];
+
+const sumEvenPositivNumber1 = (array) => {
+    let sum = 0;
+    for (let i = 0; i < array.length; i++) {
+        const element = array[i];
+        if (element > 0 && element %2 === 0) {
+            sum =+ element;
+        } 
+        return sum;
+    }
+
+};
+
+console.log(sumEvenPositivNumber1);
+
+const sumEvenPositivNumber3 = (array) => array.reduce(() => )
+    ? return acc + element
+}
