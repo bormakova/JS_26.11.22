@@ -11,9 +11,18 @@
 //fruits[0] = 'Груша';
 //console.log(fruits);
 
-let fruits = ['Киви', 'Мандарин', 
-'Яблоко', 'Апельсин',
-'Груша', 'Мандарин'];
+let fruits = [
+    {
+        name: 'Яблоко',
+        count: 8,
+    },
+    {
+        name: 'Апельсин',
+        count: 6,
+    },
+    {
+        name: 'Киви',
+        count: 10,
+    },
+];
 
-const a = fruits.includes('Яблоко');
-console.log(a);
