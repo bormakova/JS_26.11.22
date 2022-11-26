@@ -11,16 +11,9 @@
 //fruits[0] = 'Груша';
 //console.log(fruits);
 
-let a = let fruits = ['Яблоко', 'Апельсин'];
-//Добавим в конец массива Груша и Мандарин
-// Добавим в начало массива Киви и Лайм
-fruits.push('Груша', 'Мандарин')
-console.log(a);
-fruits.unshift('Киви', 'Мандарин')
-console.log(fruits);
-console.log(a);
+let fruits = ['Киви', 'Мандарин', 
+'Яблоко', 'Апельсин',
+'Груша', 'Мандарин'];
 
-let b = fruits.shift();
-console.log(b);
-let c = fruits.pop('5');
-console.log(c);
+const a = fruits.indexOf('Яблоко');
+console.log(a);
