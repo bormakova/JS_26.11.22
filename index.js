@@ -35,5 +35,13 @@ let fruits = [
 //увеличить кол-во фруктов на 10
 
 const func1 = (item) => item.count += 10;
+const func2 = function(item) {
+    item.count +=10;
+}
 
-console.log(func1); 
+function func3(item) {
+    item.count +=10;
+}
+
+fruits.forEach(func1); 
+console.log(fruits);
