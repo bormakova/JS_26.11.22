@@ -27,7 +27,7 @@ let fruits = [
 ];
 
 //Создать новый массив где кол-во к-ых <10
-
+//метод filter
 const fruitsForOrder = fruits.filter((fruit) => fruit.count < 10);
 console.log(fruits);
 console.log(fruitsForOrder);
