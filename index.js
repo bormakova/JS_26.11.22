@@ -33,6 +33,7 @@ let fruits = [
 //console.log(fruitsForOrder);
 
 //увеличить кол-во фруктов на 10
-fruits.forEach(item) => item.count += 10);
-  
-console.log(fruits); 
+
+const func1 = (item) => item.count += 10;
+
+console.log(func1); 
