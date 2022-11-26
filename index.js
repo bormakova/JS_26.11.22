@@ -33,8 +33,6 @@ let fruits = [
 //console.log(fruitsForOrder);
 
 //увеличить кол-во фруктов на 10
-fruits = fruits.map((item) =>{
-    item.count = item.count + 10;
-    return item
-});
+fruits.map((item) => item.count += 10);
+  
 console.log(fruits); 
