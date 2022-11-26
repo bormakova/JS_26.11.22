@@ -26,3 +26,6 @@ let fruits = [
     },
 ];
 
+//найти элемент в массиве
+const orange = fruits.find((item) => item.name === 'Апельсин');
+console.log(orange.count);
